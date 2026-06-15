@@ -1,0 +1,103 @@
+/* ---------------- CARDÁPIO ---------------- */
+
+.cardapio {
+    min-height: 100vh;
+
+    background-image: url('./img/background 2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+
+/* ---------------- nome da sessao ---------------- */
+
+.sessao-cardapio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 6.44vh;
+}
+
+hr {
+    border: none;
+    height: 0.7vh;
+    background-color: #6DC7FF;
+    width: 15.69vw;
+
+    box-shadow:
+        0 0 3px rgba(109, 199, 255, 0.7),
+        0 0 8px rgba(109, 199, 255, 0.5),
+        0 0 14px rgba(109, 199, 255, 0.3);
+}
+
+.linha-esquerda {
+    margin-right: 2vw;
+}
+
+.sessao-cardapio img {
+    width: 2.43vw;
+    height: 4.89vh;
+    margin-bottom: 1vh;
+}
+
+.sessao-cardapio p {
+    color: #6DC7FF;
+    font-size: 1.5vw;
+    font-weight: 500;
+    padding-left: 1vw;
+
+
+    text-shadow:
+        0 0 3px rgba(109, 199, 255, 0.7),
+        0 0 8px rgba(109, 199, 255, 0.5),
+        0 0 14px rgba(109, 199, 255, 0.3);
+}
+
+.linha-direita {
+    margin-left: 2vw;
+}
+
+/* ---------------- botões para o filtro de categoria ---------------- */
+
+
+.menu-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2vw;
+    margin-top: 5vh;
+}
+
+.seta {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 4vw;
+    cursor: pointer;
+}
+
+.menu {
+    display: flex;
+    border: 2px solid #ff00ff;
+    border-radius: 20px;
+    overflow: hidden;
+
+    box-shadow:
+        0 0 10px #ff00ff,
+        0 0 1px #ff00ff;
+}
+
+.menu button {
+    width: 15.28vw;
+    height: 8vh;
+
+    background: transparent;
+    border: none;
+    border-right: 1px solid #ff00ff;
+
+    color: white;
+    font-size: 1.2vw;
+    font-weight: bold;
+    cursor: pointer;
+}

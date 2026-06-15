@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./segundaSessao.css">
+    <link rel="stylesheet" href="./rest.css">
+    <script src="./app.js" type="module" defer></script>
+    <title>Vibe Coffee</title>
+</head>
+
+<body>
+
+    <!-- PRIMEIRA SEÇÃO -->
+    <section class="home-bg">
+
+        <header>
+            <div class="cabecalho-principal">
+
+                <img src="img/logo.png" alt="logo vibe coffee">
+
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">CARDÁPIO</a></li>
+                    <li><a href="#">SOBRE</a></li>
+                    <li><a href="#">CONTATO</a></li>
+                </ul>
+
+                <div class="desde-1980">
+                    <img src="img/icone de café.png" alt="">
+                    <p>DESDE 1980</p>
+                </div>
+
+            </div>
+        </header>
+
+        <main>
+            <div class="home-principal">
+
+                <div class="lado-esquerdo">
+                    <p class="texto-principal">CAFÉ, CULTURA E</p>
+
+                    <p class="texto-secundario">NOSTALGIA</p>
+
+                    <p class="texto-resumo">
+                        inspirado nos anos 80
+                        feito para o agora
+                        Vem viver essa
+                        experiência
+                    </p>
+
+                    <button class="botao-cardapio">
+                        <p>conheça o cardápio</p>
+                    </button>
+                </div>
+
+                <div class="lado-direito">
+
+                    <img class="copo-cafe" src="img/copo de café.png" alt="">
+
+                    <div class="icones-laterais">
+
+                        <div class="item-cafe">
+                            <button class="circulo-cafe">
+                                <img class="icone-cafe" src="img/café icon 1.png" alt="">
+                            </button>
+                            <p>café</p>
+                        </div>
+
+                        <div class="item-cha">
+                            <button class="circulo-cha">
+                                <img class="icone-cha" src="img/chá icon 1.png" alt="">
+                            </button>
+                            <p>chá</p>
+                        </div>
+
+                        <div class="item-doce">
+                            <button class="circulo-doce">
+                                <img class="icone-doce" src="img/cupcake icon 1.png" alt="">
+                            </button>
+                            <p>doce</p>
+                        </div>
+
+                        <div class="item-drinks">
+                            <button class="circulo-drinks">
+                                <img class="icone-drinks" src="img/milkshake icon 1.png" alt="">
+                            </button>
+                            <p>drinks</p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </main>
+
+    </section>
+
+    <!-- SEGUNDA SEÇÃO (ONDE API VAI SER UTILIZADA) -->
+    <section class="cardapio">
+
+        <main>
+            <div class="sessao-cardapio">
+                <hr class="linha-esquerda">
+                <img src="img/café icon 2.png" alt="">
+                <p>CARDÁPIO</p>
+                <hr class="linha-direita">
+
+            </div>
+            
+            <!-- FILTRO PARA CATEGORIA -->
+            <div class="menu-container">
+                <button class="seta">&lt;</button>
+
+                <div class="menu">
+                    <button class="ativo">CAFÉ</button>
+                    <button>CHÁ</button>
+                    <button>DOCE</button>
+                    <button>DRINKS</button>
+                </div>
+
+                <button class="seta">&gt;</button>
+            </div>
+        </main>
+
+    </section>
+
+    <footer></footer>
+
+</body>
+
+</html>
