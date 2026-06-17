@@ -362,7 +362,7 @@ hr {
     display: flex;
     flex-direction: column;
     margin-top: 7vh;
-    height: 100vh;
+    height: 50vh;
 }
 
 .container-fotos-local {
@@ -382,4 +382,69 @@ hr {
     border: 0.30vw solid #FF00CC;
 
     border-radius: 1.74vw;
+}
+/* ---------------- FIM DA SESSÃO NOSSO ESPAÇO ---------------- */
+
+/* ---------------- RODAPÉ ---------------- */
+
+
+footer{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 94.8vw;
+    height: 30.5vh;
+    margin-left: 3vw;
+
+    background-color: #0E0822;
+    border: 0.30vw solid #006FFF;
+
+    box-shadow:
+    0 0 10px #006FFF,
+    0 0 1px #006FFF;
+
+    border-radius: 1.74vw;
+}
+
+
+.container-info-rodape{
+    display: flex;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    width: 100vw;
+    justify-content: space-between;
+}
+
+.container-info-rodape img{
+    width: 247px;
+    height: 93px;
+
+}
+
+.contribuidores,
+.links-rapidos,
+.contato,
+.horarios
+{
+    color: white;
+    text-align: center;
+}
+
+.contribuidores ul,
+.links-rapidos ul,
+.contato ul,
+.horarios ul{
+    color: #FF00CC;
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+}
+
+.contribuidores li,
+.links-rapidos li,
+.contato li,
+.horarios li{
+    color: white;
 }
