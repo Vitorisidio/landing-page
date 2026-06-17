@@ -4,9 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./segundaSessao.css">
     <link rel="stylesheet" href="./rest.css">
+    <link rel="stylesheet" href="./interacoes.css">
+
     <script src="./app.js" type="module" defer></script>
     <title>Vibe Coffee</title>
 </head>
@@ -51,9 +54,11 @@
                         experiência
                     </p>
 
-                    <button class="botao-cardapio">
-                        <p>conheça o cardápio</p>
-                    </button>
+                    <a href="#cardapio">
+                        <button class="botao-cardapio">
+                            <p>conheça o cardápio</p>
+                        </button>
+                    </a>
                 </div>
 
                 <div class="lado-direito">
@@ -62,34 +67,41 @@
 
                     <div class="icones-laterais">
 
-                        <div class="item-cafe">
-                            <button class="circulo-cafe">
-                                <img class="icone-cafe" src="img/café icon 1.png" alt="">
-                            </button>
-                            <p>café</p>
-                        </div>
+                        <a href="#cardapio">
+                            <div class="item-cafe">
+                                <button class="circulo-cafe">
+                                    <img class="icone-cafe" src="img/café icon 1.png" alt="">
+                                </button>
+                                <p>café</p>
+                            </div>
+                        </a>
 
-                        <div class="item-cha">
-                            <button class="circulo-cha">
-                                <img class="icone-cha" src="img/chá icon 1.png" alt="">
-                            </button>
-                            <p>chá</p>
-                        </div>
+                        <a href="#cardapio">
+                            <div class="item-cha">
+                                <button class="circulo-cha">
+                                    <img class="icone-cha" src="img/chá icon 1.png" alt="">
+                                </button>
+                                <p>chá</p>
+                            </div>
+                        </a>
 
-                        <div class="item-doce">
-                            <button class="circulo-doce">
-                                <img class="icone-doce" src="img/cupcake icon 1.png" alt="">
-                            </button>
-                            <p>doce</p>
-                        </div>
+                        <a href="#cardapio">
+                            <div class="item-doce">
+                                <button class="circulo-doce">
+                                    <img class="icone-doce" src="img/cupcake icon 1.png" alt="">
+                                </button>
+                                <p>doce</p>
+                            </div>
+                        </a>
 
-                        <div class="item-drinks">
-                            <button class="circulo-drinks">
-                                <img class="icone-drinks" src="img/milkshake icon 1.png" alt="">
-                            </button>
-                            <p>drinks</p>
-                        </div>
-
+                        <a href="#cardapio">
+                            <div class="item-drinks">
+                                <button class="circulo-drinks">
+                                    <img class="icone-drinks" src="img/milkshake icon 1.png" alt="">
+                                </button>
+                                <p>drinks</p>
+                            </div>
+                        </a>
                     </div>
 
                 </div>
@@ -118,42 +130,25 @@
                 <!-- FILTRO PARA CATEGORIA -->
                 <div class="menu-container">
 
-                    <button class="seta">&lt;</button>
+                    <button id="seta-esquerda" class="seta">
+                        &lt;
+                    </button>
 
-                    <div class="menu">
-                        <button class="ativo">CAFÉ</button>
-                        <button>CHÁ</button>
-                        <button>DOCE</button>
-                        <button>DRINKS</button>
-                    </div>
+                    <!-- CATEGORIAS SERÃO CRIADAS PELO JS -->
+                    <div class="menu"></div>
 
-                    <button class="seta">&gt;</button>
-                </div>
-
-                <!-- CARD DO PRODUTO -->
-                <div class="container-card">
-
-                    <div class="card-produto">
-
-                        <div class="foto-produto">
-                            <img src="img/Screenshot.png" alt="">
-                        </div>
-
-                        <p class="nome-produto">Cappuccino Clássico</p>
-                        <p class="descricao-produto">Cremoso e marcante.</p>
-                        <p class="preco-produto">R$ 00,00</p>
-
-                        <button class="ver-detalhes">
-                            <p> VER DETALHES</p>
-                        </button>
-
-                    </div>
+                    <button id="seta-direita" class="seta">
+                        &gt;
+                    </button>
 
                 </div>
 
-                <!-- BOTÃO DE VER TODOS OS PRODUTOS -->
-                <button class="ver-tudo">
-                    <p> VER TUDO</p>
+                <!-- PRODUTOS VIRÃO DA API -->
+                <div class="container-card"></div>
+
+                <!-- BOTÃO VER TUDO -->
+                <button id="ver-tudo" class="ver-tudo">
+                    VER TUDO
                 </button>
 
             </div>
