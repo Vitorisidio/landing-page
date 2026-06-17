@@ -353,4 +353,33 @@ hr {
     width: 17vw;
     margin-top: 4vh;
 }
+
 /* ---------------- FIM DA SESSÃO POR QUE ESCOLHER A VIBE COFFEE? ---------------- */
+
+/* ---------------- SESSÃO NOSSO ESPAÇO ---------------- */
+
+.sessao-nosso-espaco {
+    display: flex;
+    flex-direction: column;
+    margin-top: 7vh;
+    height: 100vh;
+}
+
+.container-fotos-local {
+    display: flex;
+    margin-left: 9vw;
+    margin-right: 9vw;
+    margin-top: 9vh;
+    justify-content: space-between;
+}
+
+.fotos-local {
+    display: flex;
+    width: 17.8vw;
+    height: 27vh;
+
+    background-color: #0E0822;
+    border: 0.30vw solid #FF00CC;
+
+    border-radius: 1.74vw;
+}
