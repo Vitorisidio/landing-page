@@ -1,0 +1,64 @@
+@media (max-width: 744px) {
+
+
+    .cabecalho-principal {
+        border: none;
+        box-shadow: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cabecalho-principal ul,
+    .desde-1980 {
+        display: none;
+    }
+
+    .cabecalho-principal img{
+        width: 34vw;
+        height: 10.2vh;
+    }
+
+    .home-principal {
+        display: flex;
+    }
+    
+    .copo-cafe {
+        display: none;
+    }
+
+    .lado-direito {
+        display: flex;
+        margin-right: 6.3vw;
+    }
+        
+    .icones-laterais {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+
+        width: 91.7vw;
+        height: 13.6vh;
+    }
+
+    .circulo-cafe,
+    .circulo-cha,
+    .circulo-doce,
+    .circulo-drinks {
+        width: 13.35vw;
+        height: 10.6vh;
+    }
+
+    .icone-cafe {
+        width: 7.67vw;
+    }
+
+    .icone-cha{
+        
+    }
+
+    .icone-doce
+
+    .icone-drinks
+
+}
